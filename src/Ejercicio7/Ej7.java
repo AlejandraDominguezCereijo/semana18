@@ -22,11 +22,7 @@ public class Ej7 extends Ej6 {
 
         ArrayList<Ej6> lista_objetos = new ArrayList<Ej6>();
 
-
-
-
-
-    public String pruebaEjercicio7(String ruta, ArrayList<Ej6> objetos) {
+    public ArrayList<Ej6>  pruebaEjercicio7(String ruta, ArrayList<Ej6> objetos) {
 
             FileInputStream lecturaBytes;
             ObjectInputStream lecturaObjeto;
@@ -43,6 +39,6 @@ public class Ej7 extends Ej6 {
             }
 
 
-        return "";
+        return lista_objetos;
     }
 }
